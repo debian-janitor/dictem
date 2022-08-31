@@ -14,8 +14,8 @@ build-arch: build
 clean:
 	dh_testdir
 	dh_testroot
-	rm -f build-stamp 
-	dh_clean 
+	rm -f build-stamp
+	dh_clean
 
 install: build
 	dh_testdir
@@ -43,4 +43,4 @@ binary-indep: build install
 
 binary-arch: build install
 binary: binary-indep binary-arch
-.PHONY: build-indep build-arch build clean binary-indep binary-arch binary install 
+.PHONY: build-indep build-arch build clean binary-indep binary-arch binary install

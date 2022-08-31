@@ -18,8 +18,7 @@ Description: Dict client for emacs
  up words and definitions, obtaining information about available
  strategies, provided databases, information about DICT server etc.
  .
- It uses autocompletion that is used for selecting dictionary and 
- search strategy.  Moreover, DictEm provides several hooks which 
+ It uses autocompletion that is used for selecting dictionary and
+ search strategy.  Moreover, DictEm provides several hooks which
  may be used for buffer postprocessing.
  .
-
