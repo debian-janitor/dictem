@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: http://www.mova.org/~cheusov/pub/dictem
 Vcs-Git: https://github.com/ykaliuta/dictem.git -b packaging
+Vcs-Browser: https://github.com/ykaliuta/dictem/tree/packaging
 
 Package: dictem
 Architecture: all
