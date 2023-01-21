@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/ykaliuta/dictem.git -b packaging
 
 Package: dictem
 Architecture: all
-Depends: ${misc:Depends}, dict (>> 1.9.14), emacsen-common (>= 2.0.0)
+Depends: ${misc:Depends}, dict, emacsen-common
 Conflicts: emacsen-common (< 2.0.0)
 Provides: dict-client
 Description: Dict client for emacs
